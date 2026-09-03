@@ -1,0 +1,7 @@
+Guarda aquí las fotografías de los proyectos, dentro de su categoría.
+
+Ejemplo:
+img/videos/ficcion/sangre-de-pez.jpg
+
+Después escribe esa misma ruta en el campo poster del proyecto correspondiente
+dentro del archivo video-data.js.

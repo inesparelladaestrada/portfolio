@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Inés Parellada, film editor.">
+    <title>Inés Parellada — Film Editor</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-page="home" data-root="">
+    <!-- El menú y el footer se cargan desde components.js para reutilizarlos en todas las páginas. -->
+    <div id="site-header"></div>
+
+    <main>
+        <header id="home" class="hero" aria-labelledby="hero-title">
+            <video class="hero__video" autoplay muted loop playsinline preload="metadata">
+                <source src="videos/es/home/portada.mp4" type="video/mp4">
+                <span data-i18n="hero.videoFallback">Tu navegador no puede reproducir este vídeo.</span>
+            </video>
+
+            <div class="hero__shade" aria-hidden="true"></div>
+
+            <div class="hero__content page-width">
+                <p class="hero__eyebrow" data-i18n="hero.eyebrow">Montaje cinematográfico</p>
+                <h1 id="hero-title">Inés Parellada</h1>
+                <p class="hero__role">Film editor</p>
+            </div>
+
+            <a class="hero__explore" href="#projectes" data-i18n-aria="hero.exploreLabel">
+                <span data-i18n="hero.explore">Explorar</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6"/>
+                </svg>
+            </a>
+        </header>
+
+        <section id="projectes" class="projects section-spacing">
+            <div class="page-width">
+                <div class="section-heading">
+                    <p class="section-kicker" data-i18n="projects.kicker">Selección de trabajos</p>
+                    <h2 data-i18n="projects.title">Últimos proyectos</h2>
+                    <p data-i18n="projects.intro">
+                        Una selección de proyectos de ficción, documental, publicidad y contenido musical.
+                    </p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <a href="ficcion.html" class="project-card__link">
+                            <div class="project-card__media">
+                                <img src="videos/es/home/proyecto1.JPG"
+                                     alt="Still DRUDRU"
+                                     data-i18n-alt="projects.items.soho.alt"
+                                     loading="lazy">
+                            </div>
+                            <div class="project-card__body">
+                                <div>
+                                    <p class="project-card__category" data-i18n="projects.items.soho.category">Ficción</p>
+                                    <h3>DRUDRU</h3>
+                                </div>
+                                <p class="project-card__meta" data-i18n="projects.items.soho.meta">2026 · Montaje</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="ayudantia.html" class="project-card__link" aria-label="Festes de la Mercè">
+                            <div class="project-card__media">
+                                <!-- Imagen provisional: sustituir por el fotograma definitivo. -->
+                                <img src="videos/es/home/proyecto2.png"
+                                     alt="still Curling"
+                                     data-i18n-alt="projects.items.merce.alt"
+                                     loading="lazy">
+                            </div>
+                            <div class="project-card__body">
+                                <div>
+                                    <p class="project-card__category" data-i18n="projects.items.merce.category">Evento</p>
+                                    <h3>DOCUMENTAL CURLING CLUB VALLVIDRERA</h3>
+                                </div>
+                                <p class="project-card__meta" data-i18n="projects.items.merce.meta">2025 · Montaje</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="videoclip.html" class="project-card__link" aria-label="Nike Planeta Barcelona">
+                            <div class="project-card__media">
+                                <!-- Imagen provisional: sustituir por el fotograma definitivo. -->
+                                <img src="videos/es/home/proyecto3.png"
+                                     alt="still esa chica"
+                                     data-i18n-alt="projects.items.nike.alt"
+                                     loading="lazy">
+                            </div>
+                            <div class="project-card__body">
+                                <div>
+                                    <p class="project-card__category" data-i18n="projects.items.nike.category">Contenido de marca</p>
+                                    <h3>ESA CHICA</h3>
+                                </div>
+                                <p class="project-card__meta" data-i18n="projects.items.nike.meta">2024 · Montaje</p>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="projects__actions">
+                    <a class="button button--outline" href="producciones.html">
+                        <span data-i18n="projects.viewAll">Ver todas las producciones</span>
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <!-- Estos anclajes mantienen la estructura del menú original. -->
+                <div class="category-anchors" aria-hidden="true">
+                    <span id="cat-ficcion"></span>
+                    <span id="cat-documental"></span>
+                    <span id="cat-trailer-teaser"></span>
+                    <span id="cat-otros"></span>
+                    <span id="cat-videoclip"></span>
+                    <span id="cat-ayudantia"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section section-spacing" id="sobre-mi" aria-labelledby="about-title">
+            <div class="page-width about-section__layout">
+                <div class="about-section__heading">
+                    <p class="section-kicker" data-i18n="about.kicker">Perfil</p>
+                    <h2 id="about-title" data-i18n="about.title">About me</h2>
+                </div>
+
+                <div class="about-section__content">
+                    <p class="about-section__bio" data-i18n="about.bio">
+                        Soy montadora cinematográfica, formada en la ESCAC (Escola Superior de Cinema i Audiovisuals de Catalunya), donde cursé el Foundation Year y el Grado en Cinematografía. Este año continuaré mi formación con el Máster en Montaje de ESCAC, para seguir profundizando en las herramientas narrativas y expresivas de la edición.
+                    </p>
+
+                    <div class="about-experience">
+                        <h3 data-i18n="about.experienceTitle">Experiencia laboral</h3>
+                        
+                        <article class="experience-item">
+                            <div class="experience-item__main">
+                                <div class="experience-item__logo-wrap">
+                                    <img class="experience-item__logo" src="img/about/filmin.png" alt="Logo de Filmin" loading="lazy">
+                                </div>
+                                <div>
+                                    <h4>Filmin</h4>
+                                </div>
+                            </div>
+                            <p class="experience-item__role" data-i18n="about.jobs.filmin.role">Assistant Trailer Editor</p>
+                        </article>
+
+                        <article class="experience-item">
+                            <div class="experience-item__main">
+                                <div class="experience-item__logo-wrap">
+                                    <img class="experience-item__logo experience-item__logo--wide" src="img/about/la-parcela-producciones.png" alt="Logo de La Parcela Producciones" loading="lazy">
+                                </div>
+                                <div>
+                                    <h4>La Parcela Producciones</h4>
+                                </div>
+                            </div>
+                            <p class="experience-item__role" data-i18n="about.jobs.parcela.role">Ayudante de montaje</p>
+                        </article>
+
+                        <article class="experience-item">
+                            <div class="experience-item__main">
+                                <div class="experience-item__logo-wrap">
+                                    <img class="experience-item__logo" src="img/about/suricata-stories.png" alt="Logo de Suricata Stories" loading="lazy">
+                                </div>
+                                <div>
+                                    <h4>Suricata Stories</h4>
+                                    <p class="experience-item__company" data-i18n="about.jobs.suricata.company">Productora audiovisual documental</p>
+                                </div>
+                            </div>
+                            <p class="experience-item__role" data-i18n="about.jobs.suricata.role">Ayudante de montaje</p>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-cta section-spacing" id="contacte">
+            <div class="page-width contact-cta__layout">
+                <div>
+                    <p class="section-kicker" data-i18n="contact.kicker">Contacto</p>
+                    <h2 data-i18n="contact.title">Hablemos de tu próximo proyecto</h2>
+                </div>
+
+                <div class="contact-cta__details">
+                    <p data-i18n="contact.text">
+                        Disponible para proyectos de montaje, ayudantía y colaboración audiovisual.
+                    </p>
+                    <a href="mailto:inesparelladaestrada@gmail.com">inesparelladaestrada@gmail.com</a>
+                    <a href="tel:+34640795743">+34 640 79 57 43</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+
+    <script src="components.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de fotografía de Inés Parellada.">
+    <title>Fotografía — Inés Parellada</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="photography" data-root="">
+    <div id="site-header"></div>
+
+    <main id="photography-content"></main>
+
+    <div id="site-footer"></div>
+
+    <dialog class="photo-lightbox" id="photo-lightbox" aria-labelledby="photo-lightbox-title">
+        <div class="photo-lightbox__toolbar">
+            <div>
+                <p class="photo-lightbox__counter" id="photo-lightbox-counter"></p>
+                <h2 id="photo-lightbox-title">Fotografía</h2>
+            </div>
+            <button class="photo-lightbox__close" type="button" data-close-photo-lightbox aria-label="Cerrar imagen">×</button>
+        </div>
+
+        <div class="photo-lightbox__stage">
+            <button class="photo-lightbox__nav photo-lightbox__nav--prev" type="button" data-photo-prev aria-label="Fotografía anterior">←</button>
+            <figure class="photo-lightbox__figure">
+                <img id="photo-lightbox-image" src="" alt="">
+                <figcaption>
+                    <p id="photo-lightbox-description"></p>
+                    <span id="photo-lightbox-meta"></span>
+                </figcaption>
+            </figure>
+            <button class="photo-lightbox__nav photo-lightbox__nav--next" type="button" data-photo-next aria-label="Fotografía siguiente">→</button>
+        </div>
+    </dialog>
+
+    <script src="components.js"></script>
+    <script src="photo-data.js"></script>
+    <script src="photography.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
