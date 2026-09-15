@@ -107,19 +107,32 @@ window.PORTFOLIO_VIDEO_DATA = {
                 ]
             },
             "trailer-teaser": {
-                title: "Tráiler y teaser",
+                title: "Trailer",
                 intro: "Tráilers, teasers y piezas promocionales desarrolladas para presentar historias con precisión y ritmo.",
                 projects: [
                     {
-                        title: "Título del tráiler o teaser",
+                        title: "Filmin",
+                        status: "progress",
+                        date: "2026",
+                        synopsis: "Como ayudante de edición y postproducción en el departamento de vídeo de Filmin, me encargo de preparar, adaptar y optimizar los trailers y teasers tanto para el catálogo de la plataforma como para eventos clave como el Atlàntida Film Fest. Mi labor abarca la adaptación y creación de piezas en español, inglés y portugués, el subtitulado, y el diseño integral de cartelas, grafismos y efectos visuales. Además, participo en la edición y acabado de piezas curatoriales como los Filmin Picks —entre ellos el dedicado a Heavy Traffic, disponible actualmente en la plataforma y en 'otros' en mi página web—, trabajando a diario con DaVinci Resolve, After Effects y Photoshop.",
+                        role: "Assisant trailer editor",
+                        duration: "Actualidad",
+                        poster: "img/fotosvideos/trailerteaser/filmin/1.jpg",
+                        youtube: "https://www.youtube.com/watch?v=qAbbsQkXOR4",
+                    },
+                    {
+                        title: "HERENCIA",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Describe brevemente la obra promocionada, el objetivo de la pieza y tu participación en el montaje.",
-                        role: "Trailer editing",
-                        duration: "Duración por definir",
-                        poster: "",
-                        youtube: ""
+                        synopsis: "Herencia (España, 2026) es un largometraje documental dirigido por Ricardo Íscar y producido por El Refugio Producciones en producción asociada con Suricata Stories, proyecto en el cual participé en la edición y montaje del teaser promocional.",
+                        role: "Montaje",
+                        duration: "2:04",
+                        posters: ["img/fotosvideos/trailerteaser/herencia/1.jpg",
+                            "img/fotosvideos/trailerteaser/herencia/2.jpg",
+                            "img/fotosvideos/trailerteaser/herencia/3.jpg"],
+                        youtube: "https://www.youtube.com/watch?v=UHYvgP-nZdQ"
                     }
+                    
                 ]
             },
             otros: {
@@ -127,24 +140,51 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Publicidad, contenido para redes sociales y otras piezas audiovisuales adaptadas a distintos formatos y canales.",
                 projects: [
                     {
-                        title: "Título de la campaña",
+                        
+                        title: "Uitwaaien ",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Añade el nombre de la marca, una breve descripción de la campaña y las versiones o formatos realizados.",
+                        synopsis: "Fashion film",
                         role: "Montaje",
-                        duration: "Duración por definir",
-                        poster: "",
-                        youtube: ""
+                        duration: "1:23",
+                        posters: ["img/fotosvideos/otros/uitwaaien/1.jpg",
+                            "img/fotosvideos/otros/uitwaaien/2.jpg",
+                            "img/fotosvideos/otros/uitwaaien/3.jpg"],
+                        youtube: "https://drive.google.com/file/d/1NZxFohKIl3MyBNuISRxsom-BACv82Btq/view?usp=sharing"
                     },
                     {
-                        title: "Título de la pieza para redes",
+                        title: "Filmin Pick - Heavy Traffic",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Explica la campaña, la plataforma de publicación y las adaptaciones de formato realizadas.",
-                        role: "Montaje y adaptación",
-                        duration: "Duración por definir",
-                        poster: "",
-                        youtube: ""
+                        synopsis: "La polémica obra maestra de Ralph Bakshi ofrece una radiografía visceral y delirante de Nueva York a través de Michael Corleone, un dibujante fracasado y desertor que intenta crear animación inspirándose en su entorno marginal. Mientras lidia con la convivencia en el humilde apartamento de sus padres, el protagonista debe soportar las burlas constantes de sus conocidos vinculados a la mafia y el desprecio de una joven inmersa en los bajos fondos de proxenetas y traficantes.",
+                        role: "Montaje",
+                        duration: "2:30",
+                        poster: "img/fotosvideos/otros/filminpick/1.jpg",
+                        youtube: "https://www.filmin.es/pelicula/heavy-traffic?trailer=1"
+                    },
+                    {
+                        title: "Academia goes cinema",
+                        status: "complete",
+                        date: "2025",
+                        synopsis: "Presentado en las universidades de Gante y KU Leuven en diciembre de 2025, el documental doble RIVERS —producido por Suricata Stories para Academia Goes Cinema— unió la investigación académica con narrativas indígenas de Nepal y Colombia sobre el daño ambiental mediante debates, paneles y talleres, con el apoyo de diversas redes universitarias, el Festival REstART y fondos de cooperación como VLIRUOS y DGD.",
+                        role: "Montaje",
+                        duration: "11:07",
+                        posters: ["img/fotosvideos/otros/academia/1.png",
+                            "img/fotosvideos/otros/academia/2.png",
+                            "img/fotosvideos/otros/academia/3.png"],
+                        youtube: "https://www.youtube.com/watch?v=FEGyaQ3k_Do"
+                    },
+                    {
+                        title: "Societat Catalana d'Endocrinologia i Nutrició",
+                        status: "complete",
+                        date: "2025",
+                        synopsis: "Q&A del XXVIII Congreso de la Sociedad Catalana de Endocrinología y Nutrición, celebrado los días 19 y 20 de febrero de 2026 en el Colegio Oficial de Médicos de Barcelona, un encuentro clave de divulgación y debate clínico producido por Suricata Stories.",
+                        role: "Montaje",
+                        duration: "10:22",
+                        posters: ["img/fotosvideos/otros/nutri/1.png",
+                            "img/fotosvideos/otros/nutri/2.png",
+                            "img/fotosvideos/otros/nutri/3.png"],
+                        youtube: "https://vimeo.com/1161657185/fae91c5bd5?fl=ip&fe=ec"
                     }
                 ]
             },
@@ -247,14 +287,26 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Trailers, teasers and promotional pieces designed to introduce stories with precision and rhythm.",
                 projects: [
                     {
-                        title: "Trailer or teaser title",
+                        title: "Filmin",
+                        status: "progress",
+                        date: "2026",
+                        synopsis: "As an Assistant Editor and Post-Production Assistant in Filmin's video department, I prepare, adapt, and optimize trailers and teasers for both the platform's catalog and key events such as the Atlàntida Film Fest. My work encompasses adapting and creating trailers in Spanish, English, and Portuguese, subtitling, and designing end cards, motion graphics, and visual effects. Additionally, I participate in the editing and finishing of curated content like Filmin Picks—including the piece dedicated to Heavy Traffic, currently streaming on the platform and in the ‘Other’ section on my website.—working daily with DaVinci Resolve, Adobe After Effects, and Photoshop.",
+                        role: "Assisant trailer editor",
+                        duration: "Currently Working",
+                        poster: "img/fotosvideos/trailerteaser/filmin/1.jpg",
+                        youtube: "https://www.youtube.com/watch?v=qAbbsQkXOR4",
+                    },
+                    { 
+                        title: "HERENCIA",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Briefly describe the promoted work, the purpose of the piece and your role in the edit.",
-                        role: "Trailer editing",
-                        duration: "Duration to be confirmed",
-                        poster: "",
-                        youtube: ""
+                        synopsis: "Herencia (Spain, 2026) is a documentary directed by Ricardo Íscar and produced by El Refugio Producciones in associated production with Suricata Stories, a project for which I edited the promotional teaser.",
+                        role: "Montaje",
+                        duration: "2:04",
+                        posters: ["img/fotosvideos/trailerteaser/herencia/1.jpg",
+                            "img/fotosvideos/trailerteaser/herencia/2.jpg",
+                            "img/fotosvideos/trailerteaser/herencia/3.jpg"],
+                        youtube: "https://www.youtube.com/watch?v=UHYvgP-nZdQ"
                     }
                 ]
             },
@@ -263,24 +315,50 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Advertising, social media content and other audiovisual pieces adapted for different formats and channels.",
                 projects: [
                     {
-                        title: "Campaign title",
+                        title: "Uitwaaien ",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Add the brand name, a short description of the campaign and the versions or formats delivered.",
+                        synopsis: "Fashion film",
                         role: "Editing",
-                        duration: "Duration to be confirmed",
-                        poster: "",
-                        youtube: ""
+                        duration: "1:23",
+                        posters: ["img/fotosvideos/otros/uitwaaien/1.jpg",
+                            "img/fotosvideos/otros/uitwaaien/2.jpg",
+                            "img/fotosvideos/otros/uitwaaien/3.jpg"],
+                        youtube: "https://drive.google.com/file/d/1NZxFohKIl3MyBNuISRxsom-BACv82Btq/view?usp=sharing"
                     },
                     {
-                        title: "Social media piece title",
+                        title: "Filmin Pick - Heavy Traffic",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Explain the campaign, the publishing platform and the different format adaptations created.",
-                        role: "Editing and adaptation",
-                        duration: "Duration to be confirmed",
-                        poster: "",
-                        youtube: ""
+                        synopsis: "Ralph Bakshi's controversial masterpiece delivers a visceral, delirious snapshot of New York through Michael Corleone, a draft dodger and struggling cartoonist who draws inspiration from the harsh world around him. Living in a run-down apartment with his parents, he endures constant ridicule from his mobster friends as well as contempt from a shallow girl tied to downtown pimps and pushers.",
+                        role: "Editing",
+                        duration: "2:30",
+                        poster: "img/fotosvideos/otros/filminpick/1.jpg",
+                        youtube: "https://www.filmin.es/pelicula/heavy-traffic?trailer=1"
+                    },
+                    {
+                        title: "Academia goes cinema",
+                        status: "complete",
+                        date: "2025",
+                        synopsis: "Presented at Ghent and KU Leuven universities in December 2025, the RIVERS twin documentary—produced by Suricata Stories for Academia Goes Cinema—bridged academic research and Indigenous storytelling from Nepal and Colombia on environmental harm through screenings, panels, and workshops, supported by university networks, the REstART Festival, VLIRUOS, and DGD.",
+                        role: "Editing",
+                        duration: "11:07",
+                        posters: ["img/fotosvideos/otros/academia/1.png",
+                            "img/fotosvideos/otros/academia/2.png",
+                            "img/fotosvideos/otros/academia/3.png"],
+                        youtube: "https://www.youtube.com/watch?v=FEGyaQ3k_Do"
+                    },
+                    {
+                        title: "Societat Catalana d'Endocrinologia i Nutrició",
+                        status: "complete",
+                        date: "2025",
+                        synopsis: "Q&A of the 28th Congress of the Catalan Society of Endocrinology and Nutrition, held on February 19–20, 2026, at the Official College of Physicians, capturing key scientific insights and discussions, produced by Suricata Stories.",
+                        role: "Editing",
+                        duration: "10:22",
+                        posters: ["img/fotosvideos/otros/nutri/1.png",
+                            "img/fotosvideos/otros/nutri/2.png",
+                            "img/fotosvideos/otros/nutri/3.png"],
+                        youtube: "https://vimeo.com/1161657185/fae91c5bd5?fl=ip&fe=ec"
                     }
                 ]
             },
