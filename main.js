@@ -54,7 +54,7 @@
             about: {
                 kicker: "Perfil",
                 title: "About me",
-                bio: "Soy montadora cinematográfica, formada en la ESCAC (Escola Superior de Cinema i Audiovisuals de Catalunya), donde cursé el Foundation Year y el Grado en Cinematografía. Este año continuaré mi formación con el Máster en Montaje de ESCAC, para seguir profundizando en las herramientas narrativas y expresivas de la edición.",
+                bio: "Soy montadora cinematográfica formada en la ESCAC (Escola Superior de Cinema i Audiovisuals de Catalunya), donde cursé el Foundation Year, el Grado en Cinematografía y el Máster en Montaje, profundizando en las herramientas narrativas y expresivas de la edición. Trabajo habitualmente con Avid Media Composer, DaVinci Resolve, Premiere Pro, Final Cut Pro, After Effects y Photoshop. Actualmente formo parte del departamento de vídeo de Filmin, labor que compagino con la búsqueda constante de nuevos proyectos independientes y colaboraciones externas donde seguir explorando historias en la sala de montaje.",
                 experienceTitle: "Experiencia laboral",
                 jobs: {
                     parcela: {
@@ -132,7 +132,7 @@
             about: {
                 kicker: "Profile",
                 title: "About me",
-                bio: "I am a film editor trained at ESCAC (Escola Superior de Cinema i Audiovisuals de Catalunya), where I completed the Foundation Year and the Degree in Cinematography. This year I will continue my training with ESCAC’s Master’s Degree in Film Editing, further developing the narrative and expressive tools of editing.",
+                bio: "I am a film editor trained at ESCAC (Escola Superior de Cinema i Audiovisuals de Catalunya), where I completed the Foundation Year, a Bachelor’s Degree in Film, and a Master’s in Film Editing, deepening my focus on the narrative and expressive tools of editing. I regularly work with Avid Media Composer, DaVinci Resolve, Premiere Pro, Final Cut Pro, After Effects, and Photoshop. Currently, I am part of the video department at Filmin, which I balance with a constant drive to take on new freelance projects and external collaborations to keep exploring compelling stories in the editing room.",
                 experienceTitle: "Work experience",
                 jobs: {
                     parcela: {

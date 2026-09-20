@@ -29,17 +29,29 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Selección de cortometrajes, piezas de ficción y proyectos narrativos.",
                 projects: [
                     {
+                        title: "Alguien llama en el bosque",
+                        status: "Completed",
+                        date: "2026",
+                        synopsis: "En una sociedad donde la supervivencia se decide mediante brutales cacerías humanas, a una joven y a su hermano les llega el turno de ser las presas junto a otros dos participantes. Obligados a adentrarse en la espesura de un bosque hostil, el sonido de la señal marca el inicio de una persecución despiadada. Entre el miedo y la adrenalina, los dos hermanos deberán usar su ingenio y confiar el uno en el otro para sobrevivir.",
+                        role: "Montaje",
+                        duration: "11 min",
+                        posters: ["img/fotosvideos/ficcion/bosque/1.jpeg",
+                            "img/fotosvideos/ficcion/bosque/2.jpeg",
+                            "img/fotosvideos/ficcion/bosque/3.jpeg"],
+                        youtube: ""
+                    },
+                    {
                         title: "Fingir estar muerta",
                         status: "progress",
                         date: "2026",
-                        synopsis: "Entras en trance, tu mente viaja a otra realidad:Estás en el mismo lugar, pero ahora es más oscuro e inquietante, donde no hay nadie. Durante un largo instante te quedas ahí, encerrada, hasta regresar nuevamente a la vida real. Son tantas las ocasiones en las que te ocurre que, para detenerlo, decides alejarte sin dar explicaciones. Y... funciona.",
+                        synopsis: "Entras en trance y tu mente viaja a otra realidad. Estás en el mismo lugar, pero ahora es más oscuro e inquietante, y no hay nadie alrededor. Durante lo que parece una eternidad, te quedas atrapado allí, hasta que por fin regresas a la vida real. Ocurre con tanta frecuencia que, para ponerle fin, decides marcharte sin dar explicaciones. Y... funciona.",
                         role: "Montaje",
-                        duration: "Duración pendiente de estar confirmada",
+                        duration: "Duración por definir",
                         posters: ["img/fotosvideos/ficcion/fingir/1.png",
                             "img/fotosvideos/ficcion/fingir/2.png",
                             "img/fotosvideos/ficcion/fingir/3.png"],
                         youtube: ""
-                    },
+                    },    
                     {
                         title: "Caníbales",
                         status: "progress",
@@ -56,7 +68,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                         title: "DRUDRU",
                         status: "complete",
                         date: "2026",
-                        synopsis: "Entras en trance, tu mente viaja a otra realidad:Estás en el mismo lugar, pero ahora es más oscuro e inquietante, donde no hay nadie. Durante un largo instante te quedas ahí, encerrada, hasta regresar nuevamente a la vida real. Son tantas las ocasiones en las que te ocurre que, para detenerlo, decides alejarte sin dar explicaciones. Y... funciona.",
+                        synopsis: "La abuela de Lolita, Manuela y Nando tiene alzhéimer, y con tal de hacerla recordar, deciden recrear lo único que no olvida: «Drudru», la marca del quitamanchas con forma de sol. Convencidos de que ver a su personaje favorito la curará, los tres hermanos van a un desguace a buscar chatarra y piezas viejas para construirlo a tamaño real. Entre trastos, ingenio infantil y un montón de desorden, los tres niños intentan devolverle la memoria a su abuela con su propia creación.",
                         role: "Montaje",
                         duration: "15 min",
                         posters: ["img/fotosvideos/ficcion/drudru/1.png",
@@ -65,27 +77,13 @@ window.PORTFOLIO_VIDEO_DATA = {
                         youtube: ""
                     },
                     {
-                        title: "Fingir estar muerta",
-                        status: "progress",
+                        title: "Banyadors i Katiuskas",
+                        status: "complete",
                         date: "2026",
-                        synopsis: "Entras en trance, tu mente viaja a otra realidad:Estás en el mismo lugar, pero ahora es más oscuro e inquietante, donde no hay nadie. Durante un largo instante te quedas ahí, encerrada, hasta regresar nuevamente a la vida real. Son tantas las ocasiones en las que te ocurre que, para detenerlo, decides alejarte sin dar explicaciones. Y... funciona.",
+                        synopsis: "En su hogar en Mallorca, dos hermanas afrontan por primera vez la muerte de su abuelo, rompiendo la tranquilidad de su vida cotidiana. Mientras la mayor actúa de una manera más madura e intenta contener su propio dolor, la pequeña procesa la ausencia desde la inocencia, las preguntas directas y el juego.",
                         role: "Montaje",
-                        duration: "Duración pendiente de estar confirmada",
-                        posters: ["img/fotosvideos/ficcion/fingir/1.png",
-                            "img/fotosvideos/ficcion/fingir/2.png",
-                            "img/fotosvideos/ficcion/fingir/3.png"],
-                        youtube: ""
-                    },
-                    {
-                        title: "Fingir estar muerta",
-                        status: "progress",
-                        date: "2026",
-                        synopsis: "Entras en trance, tu mente viaja a otra realidad:Estás en el mismo lugar, pero ahora es más oscuro e inquietante, donde no hay nadie. Durante un largo instante te quedas ahí, encerrada, hasta regresar nuevamente a la vida real. Son tantas las ocasiones en las que te ocurre que, para detenerlo, decides alejarte sin dar explicaciones. Y... funciona.",
-                        role: "Montaje",
-                        duration: "Duración pendiente de estar confirmada",
-                        posters: ["img/fotosvideos/ficcion/fingir/1.png",
-                            "img/fotosvideos/ficcion/fingir/2.png",
-                            "img/fotosvideos/ficcion/fingir/3.png"],
+                        duration: "15 min",
+                        poster: "img/fotosvideos/ficcion/bik/1.jpg",
                         youtube: ""
                     }
                 ]
@@ -209,13 +207,13 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Proyectos en los que he participado como ayudante de montaje y apoyo al flujo de postproducción.",
                 projects: [
                     {
-                        title: "Título del proyecto",
+                        title: "Documental Curling club Vallvidrera",
                         status: "progress",
                         date: "2026",
-                        synopsis: "Añade la sinopsis y detalla las tareas realizadas como ayudante de montaje dentro del proyecto.",
+                        synopsis: "El Club de Curling de Vallvidrera tiene una gran pasión pero un grave problema: jamás han jugado un partido, porque el pantano donde intentan entrenar en Barcelona nunca llega a helarse. Cansados de mirar al termómetro y armados con sus escobas, deciden cruzar el Atlántico rumbo a Canadá con un único objetivo: tocar por fin el hielo de verdad y disputar el primer juego de sus vidas. Un seguimiento cómico y entrañable sobre un equipo singular que desafía al clima y al sentido común para cumplir su sueño.",
                         role: "Ayudante de montaje",
                         duration: "Duración por definir",
-                        poster: "",
+                        poster: "img/fotosvideos/ayudantia/curling/1.png",
                         youtube: ""
                     }
                 ]
@@ -229,12 +227,24 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "A selection of short films, fiction pieces and narrative projects.",
                 projects: [
                     {
+                        title: "Alguien llama en el bosque",
+                        status: "Completed",
+                        date: "2026",
+                        synopsis: "In a society where survival is decided through brutal human hunts, a young woman and her brother are chosen as the prey alongside two other participants. Forced into the depths of a hostile forest, the signal marks the start of a ruthless pursuit. Caught between fear and adrenaline, the siblings must use their wits and rely on each other to survive.",
+                        role: "Editor",
+                        duration: "11 min",
+                        posters: ["img/fotosvideos/ficcion/bosque/1.jpeg",
+                            "img/fotosvideos/ficcion/bosque/2.jpeg",
+                            "img/fotosvideos/ficcion/bosque/3.jpeg"],
+                        youtube: ""
+                    },
+                    {
                         title: "Fingir estar muerta",
                         status: "progress",
                         date: "2026",
                         synopsis: "You go into a trance, and your mind travels to another reality. You are in the same place, but now it is darker and more unsettling, and there is no one around. For what feels like a long time, you remain trapped there, until you finally return to real life. It happens so often that, in order to make it stop, you decide to walk away without giving any explanation. And... it works.",
-                        role: "Editing",
-                        duration: "Duration to be confirmed",
+                        role: "Editor",
+                        duration: "Runtime TBD",
                         posters: ["img/fotosvideos/ficcion/fingir/1.png",
                             "img/fotosvideos/ficcion/fingir/2.png",
                             "img/fotosvideos/ficcion/fingir/3.png"],
@@ -245,23 +255,33 @@ window.PORTFOLIO_VIDEO_DATA = {
                         status: "progress",
                         date: "2026",
                         synopsis: "Projects can be ordered by relevance or date. Every entry displays a photograph alongside the project information.",
-                        role: "Editing",
-                        duration: "Duration to be confirmed",
+                        role: "Editor",
+                        duration: "Runtime TBD",
                         posters: ["img/fotosvideos/ficcion/canibales/1.jpg",
                             "img/fotosvideos/ficcion/canibales/2.jpg",
                             "img/fotosvideos/ficcion/canibales/3.jpg"],
                         youtube: ""
                     },
                      {
-                        title: "Caníbales",
-                        status: "progress",
+                        title: "DRUDRU",
+                        status: "complete",
                         date: "2026",
-                        synopsis: "Projects can be ordered by relevance or date. Every entry displays a photograph alongside the project information.",
-                        role: "Editing",
-                        duration: "Duration to be confirmed",
-                        posters: ["img/fotosvideos/ficcion/canibales/1.jpg",
-                            "img/fotosvideos/ficcion/canibales/2.jpg",
-                            "img/fotosvideos/ficcion/canibales/3.jpg"],
+                        synopsis: "Lolita, Manuela, and Nando’s grandmother has Alzheimer’s, and to help her remember, they decide to recreate the only thing she hasn't forgotten: Drudru the sun-shaped stain remover mascot. Convinced that seeing her favorite character will cure her, the three siblings head to a scrapyard to find junk and old parts to build it life-size. Amid scraps, childish ingenuity, and plenty of mess, the three kids try to bring their grandmother's memory back with their own creation.",
+                        role: "Editor",
+                        duration: "15 min",
+                        posters: ["img/fotosvideos/ficcion/drudru/1.png",
+                            "img/fotosvideos/ficcion/drudru/2.png",
+                            "img/fotosvideos/ficcion/drudru/3.png"],
+                        youtube: ""
+                    },
+                    {
+                        title: "Banyadors i Katiuskas",
+                        status: "complete",
+                        date: "2026",
+                        synopsis: "In their home in Mallorca, two sisters face their grandfather's death for the first time, shattering the peace of their everyday life. While the older sister acts more maturely and tries to contain her grief, the younger one processes the absence through innocence, direct questions, and play.",
+                        role: "Editor",
+                        duration: "15 min",
+                        poster: "img/fotosvideos/ficcion/bik/1.jpg",
                         youtube: ""
                     }
                 ]
@@ -276,7 +296,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                         date: "2026",
                         synopsis: "Add the synopsis, documentary context and any relevant information about the project.",
                         role: "Assistant editor",
-                        duration: "Duration to be confirmed",
+                        duration: "Runtime TBD",
                         poster: "",
                         youtube: ""
                     }
@@ -379,17 +399,17 @@ window.PORTFOLIO_VIDEO_DATA = {
                 ]
             },
             ayudantia: {
-                title: "Assistant editing",
+                title: "Assistant editor",
                 intro: "Projects where I worked as an assistant editor and supported the post-production workflow.",
                 projects: [
                     {
-                        title: "Project title",
+                        title: "Vallvidrera Curling Club Documentary",
                         status: "progress",
                         date: "2026",
-                        synopsis: "Add the synopsis and describe the assistant editing tasks carried out during the project.",
+                        synopsis: "The Vallvidrera Curling Club has a huge passion but a major problem: they have never actually played a match, because the local reservoir where they try to train in Barcelona never freezes over. Tired of waiting for the temperature to drop and armed only with their brooms, they decide to cross the Atlantic to Canada with a single goal: finally step onto real ice and play the very first game of their lives. A comedic and endearing chronicle of a unique team defying both climate and common sense to fulfill their dream.",
                         role: "Assistant editor",
-                        duration: "Duration to be confirmed",
-                        poster: "",
+                        duration: "Runtime TBD",
+                        poster: "img/fotosvideos/ayudantia/curling/1.png",
                         youtube: ""
                     }
                 ]
