@@ -29,6 +29,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Selección de cortometrajes, piezas de ficción y proyectos narrativos.",
                 projects: [
                     {
+                        id: "bosque",
                         title: "Alguien llama en el bosque",
                         status: "Completed",
                         date: "2026",
@@ -109,6 +110,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Tráilers, teasers y piezas promocionales desarrolladas para presentar historias con precisión y ritmo.",
                 projects: [
                     {
+                        id: "filmin",
                         title: "Filmin",
                         status: "progress",
                         date: "2026",
@@ -138,7 +140,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Publicidad, contenido para redes sociales y otras piezas audiovisuales adaptadas a distintos formatos y canales.",
                 projects: [
                     {
-                        
+                        id: "uitwaaien",
                         title: "Uitwaaien ",
                         status: "complete",
                         date: "2026",
@@ -191,6 +193,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Videoclips y piezas musicales.",
                 projects: [
                     {
+                        id: "",
                         title: "Esa chica",
                         status: "complete",
                         date: "2026",
@@ -207,6 +210,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Proyectos en los que he participado como ayudante de montaje y apoyo al flujo de postproducción.",
                 projects: [
                     {
+                        id: "vallvidrera-curling-club-documentary",
                         title: "Documental Curling club Vallvidrera",
                         status: "progress",
                         date: "2026",
@@ -227,6 +231,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "A selection of short films, fiction pieces and narrative projects.",
                 projects: [
                     {
+                        id: "bosque",
                         title: "Alguien llama en el bosque",
                         status: "Completed",
                         date: "2026",
@@ -335,6 +340,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Advertising, social media content and other audiovisual pieces adapted for different formats and channels.",
                 projects: [
                     {
+                        id: "uitwaaien",
                         title: "Uitwaaien ",
                         status: "complete",
                         date: "2026",
@@ -403,6 +409,7 @@ window.PORTFOLIO_VIDEO_DATA = {
                 intro: "Projects where I worked as an assistant editor and supported the post-production workflow.",
                 projects: [
                     {
+                        id: "vallvidrera-curling-club-documentary",
                         title: "Vallvidrera Curling Club Documentary",
                         status: "progress",
                         date: "2026",

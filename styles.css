@@ -1372,3 +1372,47 @@ button {
         gap: 20px;
     }
 }
+/* Agrupa el puesto y el enlace en columna para que quede ordenado a la derecha */
+.experience-item__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* o flex-end si prefieres alinearlo a la derecha */
+  gap: 8px;
+}
+
+/* Estilo del enlace (blanco, mayúsculas, subrayado y flecha) */
+.btn-enlace {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1.5px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.btn-enlace .arrow {
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el cursor */
+.btn-enlace:hover {
+  opacity: 0.8;
+}
+
+.btn-enlace:hover .arrow {
+  transform: translate(2px, -2px);
+}
+.video-project {
+  scroll-margin-top: 110px; /* Ajusta los píxeles a la altura de tu menú */
+}

@@ -45,9 +45,9 @@
                         alt: "Fotograma de Curling Club Vallvidrera"
                     },
                     nike: {
-                        category: "Videoclip",
+                        category: "Ficción",
                         meta: "2026 · Montaje",
-                        alt: "Imagen Esa chica"
+                        alt: "Imagen Bosque"
                     }
                 }
             },
@@ -123,9 +123,9 @@
                         alt: "Still curling"
                     },
                     nike: {
-                        category: "Music video",
+                        category: "Fiction",
                         meta: "2026 · Editing",
-                        alt: "still esa chica"
+                        alt: "still bosque"
                     }
                 }
             },

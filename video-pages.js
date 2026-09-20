@@ -109,7 +109,7 @@
                             class="video-project__carousel-dot${imageIndex === 0 ? " is-active" : ""}"
                             type="button"
                             data-carousel-dot="${imageIndex}"
-                            aria-label="${escapeHtml(ui.goToPhoto)} ${imageIndex + 1}"
+                            aria-label="${escapeHtml(ui.goToPhoto)}${imageIndex + 1}"
                             aria-pressed="${imageIndex === 0 ? "true" : "false"}"
                         ></button>
                     `).join("")}
@@ -142,8 +142,11 @@
             ? `<a class="video-project__watch-link" href="${escapeHtml(videoUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(ui.watchVideo)} ↗</a>`
             : "";
 
+        // Si tiene project.id usa ese, si no genera uno con el título (ej: "Filmin" -> "filmin")
+        const projectId = project.id || (project.title ? project.title.toLowerCase().replace(/\s+/g, "-") : `project-${index}`);
+
         return `
-            <article class="video-project${index % 2 ? " video-project--reverse" : ""}">
+            <article id="${escapeHtml(projectId)}" class="video-project${index % 2 ? " video-project--reverse" : ""}">
                 <div class="video-project__media-column">
                     <div class="video-project__media">
                         ${renderProjectImage(project, index, language)}
@@ -279,14 +282,37 @@
         setCarouselIndex(carousel, currentIndex + direction);
     });
 
+const scrollToHash = (intentos = 0) => {
+        if (!window.location.hash) return;
+
+        const rawId = decodeURIComponent(window.location.hash.substring(1));
+        const target = document.getElementById(rawId) || document.querySelector(window.location.hash);
+
+        if (target) {
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: "smooth", block: "start" });
+            }, 100);
+        } else if (intentos < 20) {
+            setTimeout(() => scrollToHash(intentos + 1), 100);
+        }
+    };
+
     const render = (language = getLanguage()) => {
         if (isOverview) renderOverview(language);
         else renderCategory(language);
+        
+        requestAnimationFrame(() => {
+            scrollToHash();
+        });
     };
 
     document.addEventListener("portfolio:languagechange", (event) => {
         render(event.detail?.language || getLanguage());
     });
 
-    render();
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", () => render());
+    } else {
+        render();
+    }
 })();
